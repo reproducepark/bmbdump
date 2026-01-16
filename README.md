@@ -94,7 +94,3 @@ If you discover missing or inconsistent data, please open an issue and include:
 * block height(s)
 * transaction identifier(s) (if applicable)
 * any logs or steps to reproduce
-
-```
-::contentReference[oaicite:0]{index=0}
-```
