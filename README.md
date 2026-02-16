@@ -31,19 +31,19 @@ This repo contains scripts to:
 
 ## Dataset Releases
 
-### Block dump: 556,760–855,698 (inclusive)
+### Block dump: 556,760–859,696 (inclusive)
 
 The dataset is published as a single **.7z** archive in the GitHub Releases page.
 
 **Archive**
-- `bmbdump_556760_855698.7z`
+- `bmbdump_556760_859696.7z`
 
 **Contains**
 - `blocks.jsonl` — one JSON object per line (one block per line)
 - `txs.jsonl` — one JSON object per line (one transaction per line)
 
 **SHA-256**
-- `bmbdump_556760_855698.7z`: `EF01FBE4447936B722D281C1E9984A34A41399F02CD9ED35DD25C7B57C51E0AA`
+- `bmbdump_556760_859696.7z`: `d92cb1baa122aa5028178dd179ba896bac1457a77f810e09963853ef7ba4cf68`
 
 ---
 
@@ -51,19 +51,19 @@ The dataset is published as a single **.7z** archive in the GitHub Releases page
 
 ### Extract
 ```bash
-7z x bmbdump_556760_855698.7z
+7z x bmbdump_556760_859696.7z
 ````
 
 ### Verify (Linux/macOS)
 
 ```bash
-echo "EF01FBE4447936B722D281C1E9984A34A41399F02CD9ED35DD25C7B57C51E0AA  bmbdump_556760_855698.7z" | sha256sum -c -
+echo "d92cb1baa122aa5028178dd179ba896bac1457a77f810e09963853ef7ba4cf68  bmbdump_556760_859696.7z" | sha256sum -c -
 ```
 
 ### Verify (Windows PowerShell)
 
 ```powershell
-(Get-FileHash .\bmbdump_556760_855698.7z -Algorithm SHA256).Hash
+(Get-FileHash .\bmbdump_556760_859696.7z -Algorithm SHA256).Hash
 ```
 
 ---
