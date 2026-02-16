@@ -4,6 +4,11 @@
 
 BTCMobick’s public chain data (including historical transactions) is expected to be **deleted / pruned**, so this repository exists to **preserve** the full on-chain history for a specific block range and to make it **shareable and reproducible** via GitHub Releases.
 
+**Update / Context (New Bedford)**
+- On **2026-02-17**, BTCMobick shipped the **New Bedford** update and **deleted all publicly available transaction data** after the Bitcoin hard fork.
+- This project preserves the block & transaction history **from before that deletion**.
+- Note: **Block 859,697 is excluded** from this dump. It can be referenced via: https://archive.md/EUROv
+
 > **Large dataset files are distributed via GitHub Releases**, not tracked in the Git repository.
 
 ---
@@ -79,11 +84,17 @@ echo "d92cb1baa122aa5028178dd179ba896bac1457a77f810e09963853ef7ba4cf68  bmbdump_
 ## Purpose / Motivation
 
 BTCMobick is a Bitcoin hard fork, and the public chain data (including transactions) is expected to be removed.
+
+As of **2026-02-17 (New Bedford update)**, BTCMobick **deleted all publicly available transaction data**.  
 This dump is intended to preserve:
 
 * the complete block information for the specified height range, and
 * the full list of transactions contained within those blocks,
   in a simple, stream-friendly format suitable for later indexing and analysis.
+
+**Coverage note**
+- This project includes blocks/transactions for **all blocks prior to deletion** within the published range.
+- **Block 859,697 is not included** here and is available at: https://archive.md/EUROv
 
 ---
 
